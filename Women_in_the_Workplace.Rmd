@@ -54,7 +54,7 @@ library(ggalt)
 
 ```{r displaying the packages table, echo=FALSE}
 #Reading the variable summary excel File
-package_sum <- read_excel("D:/OneDrive - University of Cincinnati/GitHub/SayakChakraborty/Women in the Workplace Analysis in R/WomenWorkplace_Analysis_R/Package Summary.xlsx")
+package_sum <- read_excel("D:/College/Github/Projects/WomenWorkplace_Analysis_R/Package Summary.xlsx")
 
 kable(package_sum) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive", "sm"), full_width = F, fixed_thead = T, )
@@ -77,7 +77,7 @@ The first one contains information about the major employment sectors, occupatio
 <center>  **jobs_gender.csv** </center>
 
 ```{r read jobs_gender, echo=FALSE}
-dt1 <- read_excel("D:/OneDrive - University of Cincinnati/GitHub/SayakChakraborty/Women in the Workplace Analysis in R/WomenWorkplace_Analysis_R/table1.xlsx",sheet = 1)
+dt1 <- read_excel("D:/College/Github/Projects/WomenWorkplace_Analysis_R/table1.xlsx",sheet = 1)
 
 kable(dt1) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
@@ -90,7 +90,7 @@ The second table describes the percent of earnings of women with respect to men 
 
 <center> **earnings_female.csv** </center>
 ```{r read earnings_female, echo=FALSE}
-dt1 <- read_excel("D:/OneDrive - University of Cincinnati/GitHub/SayakChakraborty/Women in the Workplace Analysis in R/WomenWorkplace_Analysis_R/table1.xlsx",sheet =2)
+dt1 <- read_excel("D:/College/Github/Projects/WomenWorkplace_Analysis_R/table1.xlsx",sheet =2)
 
 kable(dt1) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
@@ -103,7 +103,7 @@ This table contains data of proportion of women and men working part-time and fu
 
  <center> **employed_gender.csv** </center>
 ```{r read employed_gender, echo=FALSE}
-dt1 <- read_excel("D:/OneDrive - University of Cincinnati/GitHub/SayakChakraborty/Women in the Workplace Analysis in R/WomenWorkplace_Analysis_R/table1.xlsx",sheet =3)
+dt1 <- read_excel("D:/College/Github/Projects/WomenWorkplace_Analysis_R/table1.xlsx",sheet =3)
 
 kable(dt1) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
